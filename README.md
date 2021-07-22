@@ -39,3 +39,10 @@
 * 하트 버튼 = 좋아요 기능
  
 ------
+
+![0](https://user-images.githubusercontent.com/75841024/126673826-d908b3fc-e989-4f5e-936a-b4ffe204073d.png)
+![1](https://user-images.githubusercontent.com/75841024/126673853-909c7b81-cd6e-4948-949a-047a0002d927.png)
+![3](https://user-images.githubusercontent.com/75841024/126673859-0e86cb15-e068-4804-9b09-d6051f7dbdbb.png)
+![4](https://user-images.githubusercontent.com/75841024/126673866-b624a1cb-7cf9-4371-a76e-5ca8c95ed4bb.png)
+![5](https://user-images.githubusercontent.com/75841024/126673871-996725a3-671f-4403-a46a-07e71a40ed11.png)
+
