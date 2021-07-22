@@ -47,7 +47,8 @@
 **[시연 영상 링크]**
 
 ------
-< 사이트 이미지 >
+
+**[사이트 이미지]**
 
 ![0](https://user-images.githubusercontent.com/75841024/126673826-d908b3fc-e989-4f5e-936a-b4ffe204073d.png)
 ![1](https://user-images.githubusercontent.com/75841024/126673853-909c7b81-cd6e-4948-949a-047a0002d927.png)
