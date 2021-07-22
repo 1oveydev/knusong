@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+
+@font-face {
+  font-family: 'SDSamliphopangche_Outline';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'font1';
+  src: url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+}
+
+
+
+html,body{
+    height:100%;
+  }
+  body{
+    text-align:center;
+  }
+
+#youtube_link {
+    height: 50px;
+    width: 620px;
+    border-top: none;
+    border-left: none;
+    border-right: none;}
+
+#title_blank {
+    height: 50px;
+    width: 620px;
+    border-left: none;
+    border-right: none;
+  }
+
+
+#written{
+    border-style: solid;
+    border-width: 0 0 0 8px; 
+    padding: 12px; word-break: break-all; }
+
+#written { 
+    border-color: LightGray; 
+    font-weight: bold
+}
+
+#title{
+    border-style: solid;
+    border-width: 0 0 0 8px; 
+    padding: 12px; word-break: break-all;
+}
+#title { 
+    border-color: LightGray;
+    font-weight: bold;
+    font-size:18;
+}
+#youtube{
+    border-style: solid;
+    border-width: 0 0 0 8px; 
+    padding: 12px;
+    word-break: break-all; 
+    font-size: 18;
+  }
+
+#youtube { 
+    border-color: LightGray; 
+    font-weight: bold;
+    height: 50px;
+}
+#content{
+    border-style: solid;
+    border-width: 0 0 0 8px; 
+    padding: 12px; word-break: break-all; 
+}
+
+#content { 
+    border-color: LightGray; 
+    font-weight: bold;
+    font-family: 'SDSamliphopangche_Outline';
+    font-size: 25;
+}
+
+#btn_submit,#btn_back {
+    background:#6c6b70;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:40px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    border-radius: 12px;
+    
+}
+
+#btn_submit:hover,#btn_back:hover{
+  background:#fff;
+  color:#6c6b70;
+  border-radius: 12px;
+  font-family: 'SDSamliphopangche_Outline';
+}
+#btn_submit:before,#btn_submit:after,#btn_back:before,#btn_back:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #07011f;
+  transition:400ms ease all;
+  border-radius: 12px;
+  font-family: 'SDSamliphopangche_Outline';
+}
+#btn_submit:after,#btn_back:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+  border-radius: 12px;
+}
+#btn_submit:hover:before,#btn_submit:hover:after,#btn_back:hover:before,#btn_back:hover:after{
+  width:100%;
+  transition:800ms ease all;
+  border-radius: 12px;
+}
+
+/* #new_post{
+  width: 100%;
+} */

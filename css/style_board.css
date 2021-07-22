@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.board_list_wrap {
+    padding: 50px;
+}
+
+.board_list {
+    width: 100%;
+    border-top: 2px solid green;
+}
+
+.board_list tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.board_list th,
+.board_list td {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.board_list td {
+    text-align: center;
+}
+
+.board_list .tit {
+    text-align: left;
+}
+
+.board_list .tit:hover {
+    text-decoration: underline;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+
+@font-face {
+  font-family: 'SDSamliphopangche_Outline';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'font1';
+  src: url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+}
+
+html,body{
+    height:100%;
+  }
+  body{
+    text-align:center;
+  }
+  
+  #btn_write {
+    background:#6c6b70;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:40px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    border-radius: 12px;
+    
+  }
+  
+  #btn_write:hover{
+  background:#fff;
+  color:#6c6b70;
+  border-radius: 12px;
+  font-family: 'SDSamliphopangche_Outline';
+  }
+  #btn_write:before,#btn_write:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #07011f;
+  transition:400ms ease all;
+  border-radius: 12px;
+  font-family: 'SDSamliphopangche_Outline';
+  }
+  #btn_write:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+  border-radius: 12px;
+  }
+  #btn_write:hover:before,#btn_write:hover:after{
+  width:100%;
+  transition:800ms ease all;
+  border-radius: 12px;
+  }
