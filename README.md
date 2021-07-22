@@ -50,7 +50,7 @@
 ------
 
 **[ 시연 영상 링크 ]**
-https://youtu.be/sEIHK524wFE
+https://www.youtube.com/watch?v=VUk5XUWA32Q
 ------
 
 **[ 사이트 이미지 ]**
